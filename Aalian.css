@@ -1,0 +1,100 @@
+.parent {     
+  display: grid;    
+   grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+        gap: 5px;    
+       height: 100vh;
+         } 
+            
+ #div1 {      
+ background-color: rgb(0, 255, 213);     
+ grid-column: 1/ 6;     
+ grid-row: 1 / 3; 
+  }  
+
+ #div2 {      
+ background-color: rgb(255, 0, 183);     
+ grid-column: 6/ 9;     
+ grid-row: 1 / 5; 
+  }      
+
+ #div3 {      
+ background-color: rgb(55, 0, 255);     
+ grid-column: 9/ 12;     
+ grid-row: 1 / 8;     
+ 
+}    
+
+ #div4 {      
+ background-color: rgb(0, 255, 0);
+ grid-column: 1 / 3;     
+ grid-row: 3 / 5; 
+  }     
+
+ #div5 {      
+ background-color: rgb(43, 255, 0);     
+ grid-column: 1 / 3;     
+ grid-row: 5 / 10;  
+ background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2prMGZveHRqMzg5M3ZxdnN4bGZ3bTI4cGptbnQwZGMzdTdhZnY2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/33zX3zllJBGY8/giphy.gif);
+} 
+ #div6 {      
+ background-color: orange;     
+ grid-column: 3/ 5;     
+ grid-row: 5 / 10; 
+  }      
+
+  #div7 {      
+ background-color: rgb(255, 68, 0);     
+ grid-column:  5/ 7;     
+ grid-row: 5 / 10;   
+ }      
+ 
+  #div8 {      
+ background-color: rgb(100, 100, 255);     
+ grid-column: 7 / 9;     
+ grid-row: 5/ 10;    
+  }    
+  
+  #div9 {      
+
+  background-color: rgb(25, 216, 83);     
+  grid-column: 1 / 3;     
+  grid-row: 10/ 15;    
+  }    
+                          
+  #div10 {      
+   
+  background-color: rgb(109, 95, 30);     
+  grid-column: 3 / 5;     
+  grid-row: 10/ 15;     
+ }    
+
+  #div11 {     
+ background-color: rgb(27, 199, 234);     
+  grid-column: 5 / 7;    
+  grid-row: 10/ 15;    
+  }   
+  
+  #div12 {      
+  background-color: rgb(181, 11, 11);     
+  grid-column: 7 / 9;     
+  grid-row: 10/ 15;    
+  }   
+   
+  #div13 {      
+  background-color: rgb(221, 22, 151);    
+   grid-column: 9 / 12;    
+  grid-row: 8/ 15;
+ }
+ .J3 {
+  
+
+ }
+ .J1 {
+  height: 100%;
+  width: 100%;
+ }
+ .J2 {
+  height: 100%;
+  width: 100%;
+ }
